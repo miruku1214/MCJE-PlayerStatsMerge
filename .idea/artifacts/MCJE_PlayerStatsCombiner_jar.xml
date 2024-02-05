@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MCJE-PlayerStatsCombiner:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MCJE_PlayerStatsCombiner_jar</output-path>
+    <root id="archive" name="MCJE-StatsCombiner.jar">
+      <element id="module-output" name="MCJE-PlayerStatsCombiner" />
+    </root>
+  </artifact>
+</component>
