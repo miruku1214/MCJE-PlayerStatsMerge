@@ -1,4 +1,4 @@
-package com.MirukuStudio.MCJEPlayerStatsCombiner;
+package com.MirukuStudio.MCJEPlayerStatsMerge;
 
 import java.io.IOException;
 import java.io.BufferedReader;
@@ -49,7 +49,7 @@ public class Main {
 
             if (cmd.hasOption(optHelp)) {
                 HelpFormatter helpFormatter = new HelpFormatter();
-                helpFormatter.printHelp("MCJE-StatsCombiner.jar", options);
+                helpFormatter.printHelp("MCJE-PlayerStatsMerge.jar", options);
             } else if (cmd.hasOption(optVersion)) {
                 System.out.println(VERSION);
             } else {
